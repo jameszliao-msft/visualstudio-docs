@@ -16,9 +16,13 @@ ms.technology: devinit
 
 The table below contains a list of all the currently available tools for devinit.
 
+## Azure
 | Tool                                                                                             | Description                                                                                                 |
 |--------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
 | [**azurecli-login**](tool-azurecli-login.md)                                                     | Tool to execute the Azure CLI command `az login --device-code`.                                             |
+
+| Tool                                                                                             | Description                                                                                                 |
+|--------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
 | [**choco-install**](tool-choco-install.md)                                                       | Tool to install chocolatey packages.                                                                        |
 | [**choco-upgrade**](tool-choco-upgrade.md)                                                       | Tool to upgrade chocolatey packages.                                                                        |
 | [**dotnet-restore**](tool-dotnet-restore.md)                                                     | Tool to restore the dependencies and tools of a .NET project.                                               |
