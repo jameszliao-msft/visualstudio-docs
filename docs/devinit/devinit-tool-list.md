@@ -21,10 +21,14 @@ The table below contains a list of all the currently available tools for devinit
 |--------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
 | [**azurecli-login**](tool-azurecli-login.md)                                                     | Tool to execute the Azure CLI command `az login --device-code`.                                             |
 
+## Chocolatey
 | Tool                                                                                             | Description                                                                                                 |
 |--------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
 | [**choco-install**](tool-choco-install.md)                                                       | Tool to install chocolatey packages.                                                                        |
 | [**choco-upgrade**](tool-choco-upgrade.md)                                                       | Tool to upgrade chocolatey packages.                                                                        |
+
+| Tool                                                                                             | Description                                                                                                 |
+|--------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
 | [**dotnet-restore**](tool-dotnet-restore.md)                                                     | Tool to restore the dependencies and tools of a .NET project.                                               |
 | [**dotnet-toolinstall**](tool-dotnet-toolinstall.md)                                             | Tool to install the .NET Core tools (for example. dotnet-ef)                                                |
 | [**enable-iis**](tool-enable-iis.md)                                                             | Tool to enable IIS features and install the latest ASP.NET hosting bundle.                                  |
