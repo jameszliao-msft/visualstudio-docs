@@ -16,15 +16,36 @@ ms.technology: devinit
 
 The table below contains a list of all the currently available tools for devinit.
 
+## Azure
+
 | Tool                                                                                             | Description                                                                                                 |
 |--------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
 | [**azurecli-login**](tool-azurecli-login.md)                                                     | Tool to execute the Azure CLI command `az login --device-code`.                                             |
+## Chocolatey
+| Tool                                                                                             | Description                                                                                                 |
+|--------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
 | [**choco-install**](tool-choco-install.md)                                                       | Tool to install chocolatey packages.                                                                        |
 | [**choco-upgrade**](tool-choco-upgrade.md)                                                       | Tool to upgrade chocolatey packages.                                                                        |
+## IIS
+| Tool                                                                                             | Description                                                                                                 |
+|--------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
+| [**enable-iis**](tool-enable-iis.md)                                                             | Tool to enable IIS features and install the latest ASP.NET hosting bundle.                                  |
+
+## MSI
+| Tool                                                                                             | Description                                                                                                 |
+|--------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
+| [**msi-install**](tool-msi-install.md)                                                           | Tool to install MSI files given a path or URL.                                                              |
+
+## .NET / .NET Core
+| Tool                                                                                             | Description                                                                                                 |
+|--------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
 | [**dotnet-restore**](tool-dotnet-restore.md)                                                     | Tool to restore the dependencies and tools of a .NET project.                                               |
 | [**dotnet-toolinstall**](tool-dotnet-toolinstall.md)                                             | Tool to install the .NET Core tools (for example. dotnet-ef)                                                |
-| [**enable-iis**](tool-enable-iis.md)                                                             | Tool to enable IIS features and install the latest ASP.NET hosting bundle.                                  |
-| [**msi-install**](tool-msi-install.md)                                                           | Tool to install MSI files given a path or URL.                                                              |
+
+
+| Tool                                                                                             | Description                                                                                                 |
+|--------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
+
 | [**npm-install**](tool-npm-install.md)                                                           | Tool to install NPM packages.                                                                               |
 | [**nuget-restore**](tool-nuget-restore.md)                                                       | Tool to restore the NuGet packages.                                                                         |
 | [**require-azureartifactscredentialprovider**](tool-require-azureartifactscredentialprovider.md) | Installs the Azure Artifacts Credential provider.                                                           |
